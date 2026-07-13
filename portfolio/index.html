@@ -1,0 +1,373 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Personal portfolio for a Computer Science student and aspiring Full Stack Developer showcasing skills, projects, resume, and contact information.">
+  <meta name="keywords"
+    content="portfolio, computer science student, full stack developer, web developer, frontend, backend">
+  <meta name="author" content="Abdullahi Adan">
+  <title>Abdullahi Adan | Frontend Developer Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="loader" aria-label="Page loading">
+    <div class="loader-ring"></div>
+  </div>
+
+  <header class="site-header" id="top">
+    <nav class="navbar" aria-label="Main navigation">
+      <a class="brand" href="#home" aria-label="Portfolio home">
+        <span class="brand-mark">AA</span>
+        <span>Abdullahi Adan</span>
+      </a>
+
+      <div class="nav-menu" id="navMenu">
+        <a class="nav-link active" href="#home">Home</a>
+        <a class="nav-link" href="#about">About</a>
+        <a class="nav-link" href="#skills">Skills</a>
+        <a class="nav-link" href="#projects">Projects</a>
+        <a class="nav-link" href="#resume">Resume</a>
+        <a class="nav-link" href="#contact">Contact</a>
+      </div>
+
+      <div class="nav-actions">
+        <button class="theme-toggle" id="themeToggle" type="button" aria-label="Toggle light and dark mode">
+          <span class="theme-icon"></span>
+        </button>
+        <button class="hamburger" id="hamburger" type="button" aria-label="Open navigation menu" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="particles" aria-hidden="true">
+        <span></span><span></span><span></span><span></span><span></span>
+      </div>
+      <div class="section-inner hero-grid">
+        <div class="hero-content reveal">
+          <p class="eyebrow">Hello, I am</p>
+          <h1>Abdullahi Adan </h1>
+          <h2><span id="typingText">Computer Science Student</span></h2>
+          <p class="hero-copy">A motivated Computer Science student building clean, responsive, and practical web
+            experiences while growing into a confident full stack developer.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="assets/resume.pdf" download>Download CV</a>
+            <a class="btn btn-secondary" href="#contact">Contact Me</a>
+          </div>
+        </div>
+
+        <div class="hero-visual reveal">
+          <div class="photo-card">
+            <div class="profile-placeholder" role="img" aria-label="Professional profile photo">
+              <img src="images/sawirprofile1 (3).png" alt="Professional profile photo">
+            </div>
+            <div class="status-pill">Open to Internships</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="about section" id="about">
+      <div class="section-inner">
+        <div class="section-heading reveal">
+          <p class="eyebrow">About Me</p>
+          <h2>A passionate software developer and tech enthusiast.</h2>
+        </div>
+        <div class="about-grid">
+          <article class="glass-card reveal">
+            <h3>Personal Introduction</h3>
+            <p>I am a Computer Science student with a strong interest in web technologies, problem solving, and turning
+              ideas into polished digital products.</p>
+          </article>
+          <article class="glass-card reveal">
+            <h3>Education</h3>
+            <p>Bachelor of Science in Computer Science. Coursework includes programming fundamentals, data structures,
+              algorithms, databases, and software engineering.</p>
+          </article>
+          <article class="glass-card reveal">
+            <h3>Career Goals</h3>
+            <p>My goal is to become a full stack developer who can design intuitive interfaces, build reliable backend
+              systems, and collaborate on meaningful products.</p>
+          </article>
+          <article class="glass-card reveal">
+            <h3>Currently Learning</h3>
+            <p>I am expanding my skills with Node.js, Express.js, MongoDB, and modern JavaScript workflows while
+              practicing clean code habits.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="stats section-slim" aria-label="Portfolio statistics">
+      <div class="section-inner stats-grid">
+        <div class="stat reveal"><strong data-count="12">0</strong><span>Practice Projects</span></div>
+        <div class="stat reveal"><strong data-count="9">0</strong><span>Core Skills</span></div>
+        <div class="stat reveal"><strong data-count="3">0</strong><span>Learning Paths</span></div>
+        <div class="stat reveal"><strong data-count="100">0</strong><span>Growth Mindset</span></div>
+      </div>
+    </section>
+
+    <section class="skills section" id="skills">
+      <div class="section-inner">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Skills</p>
+          <h2>Technologies and tools I use to create web experiences.</h2>
+        </div>
+        <div class="skills-layout">
+          <div class="skill-group reveal">
+            <h3>Frontend</h3>
+            <div class="skill-bars">
+              <div class="skill-bar" data-level="92"><span>HTML5</span>
+                <div><em></em></div>
+              </div>
+              <div class="skill-bar" data-level="88"><span>CSS3</span>
+                <div><em></em></div>
+              </div>
+              <div class="skill-bar" data-level="72"><span>Tailwind CSS</span>
+                <div><em></em></div>
+              </div>
+              <div class="skill-bar" data-level="78"><span>JavaScript</span>
+                <div><em></em></div>
+              </div>
+              <div class="skill-bar" data-level="64"><span>React</span>
+                <div><em></em></div>
+              </div>
+            </div>
+          </div>
+          <div class="skill-cards">
+            <article class="skill-card reveal"><span>Git</span><small>Version Control</small></article>
+            <article class="skill-card reveal"><span>GitHub</span><small>Collaboration</small></article>
+            <article class="skill-card reveal"><span>VS Code</span><small>Development</small></article>
+            <article class="skill-card reveal"><span>Figma</span><small>Design</small></article>
+            <article class="skill-card reveal"><span>Node.js</span><small>Learning</small></article>
+            <article class="skill-card reveal"><span>Express.js</span><small>Learning</small></article>
+            <article class="skill-card reveal"><span>MongoDB</span><small>Learning</small></article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="projects section" id="projects">
+      <div class="section-inner">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Projects</p>
+          <h2>Projects that showcase my skills and growth as a frontend developer.</h2>
+        </div>
+
+        <div class="filter-tabs reveal" aria-label="Project filters">
+          <button class="filter-btn active" type="button" data-filter="all">All</button>
+          <button class="filter-btn" type="button" data-filter="frontend">Frontend</button>
+          <button class="filter-btn" type="button" data-filter="javascript">JavaScript</button>
+          <button class="filter-btn" type="button" data-filter="ui">UI Design</button>
+        </div>
+
+        <div class="project-grid">
+          <article class="project-card reveal" data-category="javascript">
+            <div class="project-image">
+              <img src="images/Screenshot 2026-07-13 115228.png" alt="CodeAlpha calculator project screenshot">
+            </div>
+            <div class="project-body">
+              <h3>CodeAlpha Calculator</h3>
+              <p>A responsive calculator with keyboard support and clean arithmetic interactions.</p>
+              <div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+              <div class="project-actions"><a href="#">Live Demo</a><a href="#">GitHub Repository</a></div>
+            </div>
+          </article>
+          <article class="project-card reveal" data-category="frontend ui">
+            <div class="project-image">
+              <img src="images/Screenshot 2026-07-13 121028.png" alt="CodeAlpha portfolio project screenshot">
+            </div>
+            <div class="project-body">
+              <h3>CodeAlpha Portfolio</h3>
+              <p>A personal portfolio layout with smooth navigation, responsive sections, and modern styling.</p>
+              <div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+              <div class="project-actions"><a href="#">Live Demo</a><a href="#">GitHub Repository</a></div>
+            </div>
+          </article>
+          <article class="project-card reveal" data-category="frontend ui">
+            <div class="project-image">
+              <img src="images/Screenshot 2026-07-13 115009.png"" alt=" CodeAlpha image gallery project screenshot">
+            </div>
+            <div class="project-body">
+              <h3>CodeAlpha Image Gallery</h3>
+              <p>A responsive image gallery with lightbox functionality and smooth animations.</p>
+              <div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+              <div class="project-actions"><a href="#">Live Demo</a><a href="#">GitHub Repository</a></div>
+            </div>
+          </article>
+          <article class="project-card reveal" data-category="javascript">
+            <div class="project-image">
+              <img src="images/Screenshot 2026-07-13 120337.png" alt="To-do list project screenshot">
+            </div>
+            <div class="project-body">
+              <h3>Zenna-Shop</h3>
+              <p>A modern e-commerce website with a focus on user experience and seamless shopping functionality.</p>
+              <div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+              <div class="project-actions"><a href="#">Live Demo</a><a href="#">GitHub Repository</a></div>
+            </div>
+          </article>
+          <article class="project-card reveal" data-category="frontend ui">
+            <div class="project-image">
+              <img src="images/Screenshot 2026-07-13 120648.png" alt="Aqable Branch 2 project screenshot">
+            </div>
+            <div class="project-body">
+              <h3>Aqable Branch 2</h3>
+              <p>A responsive pharmacy website built with HTML, Tailwind CSS, and JavaScript. Includes product
+                categories, medicine search, promotional banners, and a modern user interface.</p>
+              <div class="tags"><span>HTML</span><span> Tailwind CSS</span><span>JavaScript</span></div>
+              <div class="project-actions"><a href="#">Live Demo</a><a href="#">GitHub Repository</a></div>
+            </div>
+
+
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="resume section" id="resume">
+      <div class="section-inner resume-grid">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Resume</p>
+          <h2>Education, certifications, and my career journey.</h2>
+          <a class="btn btn-primary" href="assets/resume.pdf" download>Download CV</a>
+        </div>
+        <div class="timeline reveal">
+          <div class="timeline-item">
+            <span>Education</span>
+            <h3>Bachelor of Science in Computer Science</h3>
+            <p>Currently pursuing a Bachelor's degree at SIMAD University, focusing on programming, software
+              engineering, databases, algorithms, and web development.</p>
+          </div>
+          <div class="timeline-item">
+            <span>Experience</span>
+            <h3>Frontend Developer (Student)</h3>
+            <p>Building responsive web applications with HTML, CSS, Tailwind CSS, JavaScript, and React while
+              continuously improving through personal projects and hands-on practice.</p>
+          </div>
+          <div class="timeline-item">
+            <span>Certifications</span>
+            <h3>Web Development Practice</h3>
+            <p>Currently completing practical learning paths in JavaScript, responsive design, Git, and backend
+              fundamentals.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="testimonials section-slim">
+      <div class="section-inner">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Testimonials</p>
+          <h2>What collaborators value.</h2>
+        </div>
+        <div class="testimonial-grid">
+          <blockquote class="glass-card reveal">"Reliable, curious, and quick to improve after feedback."<cite>Project
+              Teammate</cite></blockquote>
+          <blockquote class="glass-card reveal">"Shows strong attention to responsive layout and user
+            experience."<cite>Peer Reviewer</cite></blockquote>
+        </div>
+      </div>
+    </section>
+
+    <section class="blog section-slim">
+      <div class="section-inner">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Blog</p>
+          <h2>Recent learning notes.</h2>
+        </div>
+        <div class="blog-grid">
+          <article class="blog-card reveal"><span>Frontend</span>
+            <h3>How I approach responsive layouts</h3>
+            <p>Using grid, flexible spacing, and mobile-first decisions.</p>
+          </article>
+          <article class="blog-card reveal"><span>JavaScript</span>
+            <h3>What I learned from DOM projects</h3>
+            <p>State, events, validation, and small interaction details.</p>
+          </article>
+          <article class="blog-card reveal"><span>Backend</span>
+            <h3>My path into Node.js</h3>
+            <p>Building APIs, connecting databases, and understanding servers.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact section" id="contact">
+      <div class="section-inner contact-grid">
+        <div class="contact-info reveal">
+          <p class="eyebrow">Contact</p>
+          <h2>Let us build something practical together.</h2>
+          <p>I am available for internships, student collaborations, freelance practice projects, and web development
+            opportunities.</p>
+          <div class="social-links" aria-label="Social media links">
+            <a href="https://github.com/Abdullahi-Suugani" aria-label="GitHub">GH</a>
+            <a href="https://www.linkedin.com/in/abdullahi-suugani" aria-label="LinkedIn">in</a>
+            <a href="https://twitter.com/Abdullahi_Suugani" aria-label="X Twitter">X</a>
+          </div>
+        </div>
+
+        <form class="contact-form reveal" id="contactForm" novalidate>
+          <div class="form-row">
+            <label for="name">Name</label>
+            <input id="name" name="name" type="text" placeholder="Your name" required>
+            <small class="error"></small>
+          </div>
+          <div class="form-row">
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" placeholder="you@example.com" required>
+            <small class="error"></small>
+          </div>
+          <div class="form-row">
+            <label for="subject">Subject</label>
+            <input id="subject" name="subject" type="text" placeholder="Project or opportunity" required>
+            <small class="error"></small>
+          </div>
+          <div class="form-row">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Write your message" required></textarea>
+            <small class="error"></small>
+          </div>
+          <button class="btn btn-primary" type="submit">Send Message</button>
+          <p class="form-status" id="formStatus" role="status"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      <p>&copy; <span id="year"></span> Abdullahi Adan</p>
+      <div class="footer-nav">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#resume">Resume</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <div class="footer-social">
+        <a href="https://github.com/Abdullahi-Suugani" aria-label="GitHub">GH</a>
+        <a href="https://www.linkedin.com/in/abdullahi-suugani" aria-label="LinkedIn">in</a>
+        <a href="https://twitter.com/Abdullahi_Suugani" aria-label="X Twitter">X</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- <button class="back-to-top" id="backToTop" type="button" aria-label="Back to top">â†‘</button> -->
+  <script src="script.js"></script>
+</body>
+
+</html>
